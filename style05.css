@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.Wrap{
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    z-index: 10;
+    position: fixed;
+}
+nav img{
+    z-index: 3;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 1792px;
+}
+nav ul{
+    position: absolute  ;
+    background-color: black;
+    width: 1920px;
+    height: 50px;
+    padding-top: 50px;
+    justify-content: flex-end;
+    display: flex;
+}
+nav ul li a{
+    display: block;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+} 
+.title{
+    z-index: 1;
+    position: absolute;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-weight: 500;
+    font-size: 120pt;
+    top: 297px;
+    left: 410px;
+    width: 450px;
+    height: 174px;
+    color: white;
+    animation: title 1s;
+    animation-iteration-count: 1;
+}
+@keyframes title {
+    0%{color: #E22014;}
+    30%{color: #E22014;}
+}
+.interview_line{
+    position: absolute;
+    top: 602px;
+    left: 0%;
+}
+.says{
+    position: absolute;
+    width: 393px;
+    height: 168px;
+    top: 839px;
+    left: 960px;
+}
+.says_kr{
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    top: 1050px;
+    left: 960px;
+}
+.q1{
+    position: absolute;
+    width: 436px;
+    height: 70px;
+    top: 1330px;
+    left: 1025px;
+}
+.q2{
+    position: absolute;
+    width: 545px;
+    height: 35px;
+    top: 1891px;
+    left: 460px;
+}
+.q3{
+    position: absolute;
+    width: 800px;
+    height: 105px;
+    top: 2452px;
+    left: 663px;
+}
+.q4{
+    position: absolute;
+    width: 800px;
+    height: 105px;
+    top: 3013px;
+    left: 465px;
+}
+.q5{
+    position: absolute;
+    width: 820px;
+    height: 175px;
+    top: 3574px;
+    left: 643px;
+}
+.a1{
+    position: absolute;
+    width: 820px;
+    height: 175px;
+    top: 1563px;
+    left: 460px;
+}
+.a2{
+    position: absolute;
+    width: 762px;
+    height: 140px;
+    top: 2114px;
+    left: 699px;
+}
+.a3{
+    position: absolute;
+    width: 762px;
+    height: 140px;
+    top: 2675px;
+    left: 460px;
+}
+.a4{
+    position: absolute;
+    width: 220px;
+    height: 35px;
+    top: 3236px;
+    left: 1241px;
+}
+.a5{
+    position: absolute;
+    width: 630px;
+    height: 220px;
+    top: 3857px;
+    left: 460px;
+}
+.de{
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+}
+.copy{
+    z-index: 1000;
+    position: absolute;
+    top: 4282px;
+    left: 0px;
+}
+a{color: white;}
+a:link{color: white;}
+a:hover{color: #E22014;}

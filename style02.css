@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.Wrap{
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    z-index: 1;
+    position: fixed;
+}
+nav img{
+    z-index: 3;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 1202px;
+}
+nav ul{
+    position: absolute  ;
+    background-color: black;
+    width: 1920px;
+    height: 50px;
+    padding-top: 50px;
+    justify-content: flex-end;
+    display: flex;
+}
+nav ul li a{
+    display: block;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+}
+.Cl_Ga_Tag{
+    z-index: 3;
+    position: absolute;
+    top: 1390px;
+    left: 188px;
+    height: 49px;
+}
+.Cl_txt{
+    z-index: 3;
+    position: absolute;
+    top: 1387px;
+    left: 540px;
+    width: 700px;
+    height: 359px;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 21pt;
+    font-weight: 300;
+    text-decoration: underline 1px;
+    text-underline-position : under;
+}
+.Cl_Ga{
+    z-index: 2;
+    position: absolute;
+    top: 425px;
+    left: 75px;
+}
+.Des_Tag{
+    z-index: 3;
+    position: absolute;
+    height: 49px;
+    top: 2883px;
+    left: 714px;
+    transform: rotate(-14deg);
+}
+.Des_txt{
+    rotate: -14deg;
+    z-index: 3;
+    position: absolute;
+    top: 2745px;
+    left: 1052px;
+    width: 690px;
+    height: 359px;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 21pt;
+    font-weight: 300;
+    text-decoration: underline 1px;
+    text-underline-position : under;
+}
+.Des{
+    z-index: 2;
+    position: absolute;
+    top: 1598px;
+    left: 364px;
+}
+.Asc_Tag{
+    z-index: 3;
+    position: absolute;
+    height: 49px;
+    top: 3906px;
+    left: 334px;
+    transform: rotate(107deg);
+}
+.As_txt{
+    rotate: 17deg;
+    z-index: 3;
+    position: absolute;
+    top: 3879px;
+    left: 503px;
+    width: 660px;
+    height: 359px;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 21pt;
+    font-weight: 300;
+    text-decoration: underline 1px;
+    text-underline-position : under;
+}
+.Asc{
+    z-index: 2;
+    position: absolute;
+    top: 2945px;
+    left: 94px;
+}
+.title{
+    z-index: 0;
+    position: absolute;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-weight: 500;
+    font-size: 120pt;
+    top: 297px;
+    left: 410px;
+    width: 300px;
+    height: 174px;
+    color: white;
+    animation: title 1s;
+    animation-iteration-count: 1;
+}
+@keyframes title {
+    0%{color: #E22014;}
+    30%{color: #E22014;}
+}
+.copy{
+    padding-top: 200px;
+}
+a{color: white;}
+a:link{color: white;}
+a:hover{color: #E22014;}

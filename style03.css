@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.Wrap{
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    z-index: 10;
+    position: fixed;
+}
+nav img{
+    z-index: 3;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 1380px;
+}
+nav ul{
+    position: absolute  ;
+    background-color: black;
+    width: 1920px;
+    height: 50px;
+    padding-top: 50px;
+    justify-content: flex-end;
+    display: flex;
+}
+nav ul li a{
+    display: block;
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: 15pt;
+    font-weight: 400;
+    width: 200px;
+    text-align: center;
+    justify-content: space-between;
+} 
+.title{
+    z-index: 1;
+    width: 650px;
+    height: 175px;
+    top: 297px;
+    left: 410px;
+    position: absolute;
+    font-family: "Noto Sans Kr", sans-serif;
+    font-weight: 500;
+    font-size: 120pt;
+    color: white;
+    animation: title 1s;
+    animation-iteration-count: 1;
+}
+@keyframes title {
+    0%{color: #E22014;}
+    30%{color: #E22014;}
+}
+.subtitle{
+    z-index: 1;
+    position: absolute;
+    width: 750px;
+    height: 35px;
+    top: 520px;
+    left: 410px;
+    font-family: "Noto Sans Kr", sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
+    color: white;
+}
+section .title_img{
+    z-index: 0;
+    position: absolute;
+}
+.st_ho{
+    padding-top: 750px;
+    z-index: -2;
+    background-color: white;
+    width: 1920px;
+    height: 2753px;
+}
+.st_line{
+    z-index: 0;
+    position: absolute;
+    top: 898px;
+    left: 410px;
+}
+.s1{
+    position: absolute;
+    top: 798px;
+    left: 177px;
+    z-index: 1;
+}
+.s2{
+    position: absolute;
+    top: 798px;
+    left: 697px;
+    z-index: 1;
+}
+.s3{
+    position: absolute;
+    top: 1198px;
+    left: 177px;
+    z-index: 1;
+}
+.s4{
+    position: absolute;
+    top: 1198px;
+    left: 723px;
+    z-index: 1;
+}
+.s5{
+    position: absolute;
+    top: 1671px;
+    left: 177px;
+    z-index: 1;
+}
+.s6{
+    position: absolute;
+    top: 1671px;
+    left: 567px;
+    z-index: 1;
+}
+.s7{
+    position: absolute;
+    top: 2177px;
+    left: 177px;
+    z-index: 1;
+}
+.s8{
+    position: absolute;
+    top: 2804px;
+    left: 177px;
+    z-index: 1;
+}
+.m_s{
+    position: absolute;
+    top: 2862px;
+    left: 1510px;
+}
+.le_line{
+    z-index: 0;
+    position: absolute;
+    top: 3660px;
+    left: 322px;
+}
+.levi{
+    z-index: -2;
+    background-color: black;
+    width: 1920px;
+    height: 2221px;
+}
+.l1{
+    position: absolute;
+    top: 3525px;
+    left: 177px;
+    z-index: 1;
+}
+.l2{
+    position: absolute;
+    top: 3525px;
+    left: 550px;
+    z-index: 1;
+}
+.l3{
+    position: absolute;
+    top: 3888px;
+    left: 177px;
+    z-index: 1;
+}
+.l4{
+    position: absolute;
+    top: 3888px;
+    left: 598px;
+    z-index: 1;
+}
+.l5{
+    position: absolute;
+    top: 4207px;
+    left: 177px;
+    z-index: 1;
+}
+.l6{
+    position: absolute;
+    top: 4207px;
+    left: 456px;
+    z-index: 1;
+}
+.l7{
+    position: absolute;
+    top: 4207px;
+    left: 733px;
+    z-index: 1;
+}
+.l8{
+    position: absolute;
+    top: 4462px;
+    left: 177px;
+    z-index: 1;
+}
+.l9{
+    position: absolute;
+    top: 5056px;
+    left: 177px;
+    z-index: 1;
+}
+.m_l{
+    position: absolute;
+    top: 5186px;
+    left: 1510px;
+}
+.line1{
+    position: absolute;
+    top: 918px;
+    left: 1035px;
+}
+.line2{
+    position: absolute;
+    top: 3660px;
+    left: 1035px;
+}
+.tag1{
+    padding-left: 5px;
+    padding-top: 3px;
+    z-index: 1;
+    position: absolute;
+    background-color: black;
+    width: 258px;
+    height: 43px;
+    font-family: "Noto Sans Kr", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: white;
+}
+.tag2{
+    padding-left: 5px;
+    padding-top: 3px;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 258px;
+    height: 43px;
+    font-family: "Noto Sans Kr", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: black;
+}
+.t1{top: 974px;left: 1252px;}
+.t2{top: 1028px;left: 1252px;width: 102px}
+.t3{top: 3718px;left: 1252px;}
+.t4{top: 3772px;left: 1252px;width: 102px}
+.e1{top: 919px;left: 328px;}
+.e2{top: 1063px;left: 845px;}
+.e3{top: 1137px;left: 226px;}
+.e4{top: 1525px;left: 799px;}
+.e5{top: 2064px;left: 758px;}
+.e6{top: 2855px;left: 758px;}
+.e7{top: 3666px;left: 100px;rotate: -90deg;}
+.e8{top: 3559px;left: 814px;}
+.e9{top: 3867px;left: 90px;}
+.e10{top: 4090px;left: 853px;}
+.e11{top: 4391px;left: 337px;}
+.e12{top: 4785px;left: 864px;rotate: 90deg;}
+.e13{top: 5088px;left: 831px;}
+a{color: white;}
+a:link{color: white;}
+a:hover{color: #E22014;}
